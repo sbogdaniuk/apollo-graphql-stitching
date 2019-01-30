@@ -1,0 +1,27 @@
+{
+  "name": "service-1",
+  "version": "1.0.0",
+  "description": "Example of a single instance of a GraphQL microservice",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js"
+  },
+  "keywords": [
+    "GraphQL",
+    "Microservice",
+    "NodeJS"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.3.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
